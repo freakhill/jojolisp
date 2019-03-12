@@ -5,3 +5,10 @@ authors = ["Johan Gall <johan.gall@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+logos = "0.9.7" # lexer
+rustyline = "3.0.0" # readline
+clap = "2.32.0" # cli parser
+failure = "0.1.5"
+#enum_dispatch = "0.1.2"
+cranelift = "0.29.0"
+#inkwell = { git = "https://github.com/TheDan64/inkwell", branch = "llvm7-0" }
